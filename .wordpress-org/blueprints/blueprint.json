@@ -1,0 +1,17 @@
+{
+	"landingPage": "/wp-admin/options-general.php",
+	"steps": [
+		{
+			"step": "login",
+			"username": "admin",
+			"password": "password"
+		},
+		{
+			"step": "installPlugin",
+			"pluginZipFile": {
+				"resource": "wordpress.org/plugins",
+				"slug": "sort-settings-menu"
+			}
+		}
+	]
+}
